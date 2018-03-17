@@ -1,0 +1,22 @@
+{
+    "name": "longsight-light-theme",
+    "displayName": "Longsight Light Theme",
+    "description": "A theme designed for use with data projectors",
+    "version": "3.0.4",
+    "publisher": "fgcintra",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Longsight Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Longsight Light Theme-color-theme.json"
+            }
+        ]
+    }
+}
