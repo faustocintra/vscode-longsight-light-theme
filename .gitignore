@@ -2,3 +2,4 @@ node_modules
 *.vsix
 .vscodeignore
 .vscode
+.token
