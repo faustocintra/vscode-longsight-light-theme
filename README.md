@@ -2,7 +2,7 @@
 
 A colorful, yet eye-friendly, theme designed for use on data projectors, where dark themes do not suit well.
 
-Tested and optimized for HTML, CSS and (Java | Type)script.
+Tested and optimized for PHP, HTML, CSS and (Java | Type)script.
 
 ## Installation
 
