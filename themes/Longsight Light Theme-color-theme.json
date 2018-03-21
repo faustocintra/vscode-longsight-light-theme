@@ -71,11 +71,17 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "Comment and documentation types",
 			"scope": [
 				"comment",
-				"meta.documentation",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"meta.other.type.phpdoc.php keyword.other.type.php",
+				"meta.other.type.phpdoc.php support.class.php",
+				"meta.other.type.phpdoc.php keyword.other.array.phpdoc.php",
+				"meta.other.type.phpdoc.php punctuation.separator.delimiter.php",
+				"meta.other.type.phpdoc.php punctuation.separator.inheritance.php",
+				"meta.other.type.phpdoc.php support.other.namespace.php",
+				"meta.other.type.phpdoc.php support.class.builtin.php"
 			],
 			"settings": {
 				"foreground": "#009688",
@@ -83,10 +89,39 @@
 			}
 		},
 		{
+			"name": "Documentation",
+			"scope": [
+				"meta.documentation",
+				"comment.block.documentation.phpdoc.php"
+			],
+			"settings": {
+				"foreground": "#006064",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Documentation Keywords",
+			"scope": [
+				"keyword.other.phpdoc.php"
+			],
+			"settings": {
+				"foreground": "#006064",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
 				"foreground": "#0288D1"
+			}
+		},
+		{
+			"name": "CSS url",
+			"scope": "variable.parameter.url.css",
+			"settings": {
+				"foreground": "#0288D1",
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -117,6 +152,13 @@
 		{
 			"name": "Variable",
 			"scope": "variable",
+			"settings": {
+				"foreground": "#455A64"
+			}
+		},
+		{
+			"name": "HTML Text",
+			"scope": "text.html.basic",
 			"settings": {
 				"foreground": "#455A64"
 			}
@@ -169,8 +211,12 @@
 				"source.js punctuation.separator.comma",
 				"source.tsx punctuation.separator.comma",
 				"punctuation.definition.seperator",
-				"punctuation.terminator.rule.css"
-
+				"punctuation.terminator.rule.css",
+				"punctuation.terminator.expression.php",
+				"punctuation.definition.begin.bracket.curly.php",
+				"punctuation.definition.end.bracket.curly.php",
+				"punctuation.section.array.begin.php",
+				"punctuation.section.array.end.php"
 			],
 			"settings": {
 				"foreground": "#E57373"
@@ -219,7 +265,11 @@
 				"keyword.operator.bitwise",
 				"keyword.operator.increment",
 				"keyword.operator.decrement",
-				"keyword.operator.ternary"
+				"keyword.operator.ternary",
+				"keyword.operator.relational.js",
+				"keyword.operator.pattern.css",
+				"keyword.operator.key.php",
+				"keyword.operator.class.php"
 			],
 			"settings": {
 				"foreground": "#B71C1C"
@@ -246,9 +296,8 @@
 				"source.json support.type",
 				"meta.object.member.ts meta.object-literal.key.ts",
 				"meta.object.member.js meta.object-literal.key.js",
-				"meta.object.member.tsx meta.object-literal.key.tsx"
-				
-				
+				"meta.object.member.tsx meta.object-literal.key.tsx",
+				"entity.other.attribute-name.css"
 			],
 			"settings": {
 				"foreground": "#0D47A1"
@@ -316,6 +365,18 @@
 				"foreground": "#9C27B0"
 			}
 		},
+		{
+			"name": "Tag start/end",
+			"scope": [
+				"meta.tag.sgml.doctype.html",
+				"meta.tag.sgml.html"
+			],
+			"settings": {
+				"foreground": "#9C27B0",
+				"fontStyle": "italic"
+			}
+		},
+	
 		{
 			"name": "Library function",
 			"scope": "support.function",
@@ -403,11 +464,10 @@
 		{
 			"name": "CSS: Standard color value",
 			"scope": [
-				"support.constant.color",
-				"invalid.deprecated.color.w3c-non-standard-color-name.scss"
+				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#1E88E5"
+				"foreground": "#455A64"
 			}
 		},
 		{
@@ -426,7 +486,7 @@
 				"source.sass keyword.control.untitled"
 			],
 			"settings": {
-				"foreground": "#6A1B9A"
+				"foreground": "#9C27B0"
 			}
 		},
 		{
