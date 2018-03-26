@@ -6,7 +6,7 @@ Tested and optimized for PHP, HTML, CSS and (Java | Type)script.
 
 ## Installation
 
-In *Microsoft Visual Studio Code* (download it [here](https://code.visualstudio.com/Download)), press `Ctrl + P`. Paste `ext install fgcintra.longsight-light-theme` into the box and hit `Enter`. Reload VSCode window when done.
+In **Microsoft Visual Studio Code** (download it [here](https://code.visualstudio.com/Download)), press `Ctrl + P`. Paste `ext install fgcintra.longsight-light-theme` into the box and hit `Enter`. Reload VSCode window when done.
 
 ## Screenshots
 
