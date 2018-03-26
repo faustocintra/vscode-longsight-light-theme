@@ -122,7 +122,7 @@
 			"name": "Language agnostic: escape \\ char",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#0000bb"
+				"foreground": "#FF7043"
 			}
 		},
 		{
@@ -216,9 +216,15 @@
 		},
 		{
 			"name": "Language agnostic: regexp",
-			"scope": "string.regexp",
+			"scope": [
+				"string.regexp",
+				"string.regexp punctuation.definition.string.begin",
+				"string.regexp punctuation.definition.string.end",
+				"keyword.control.anchor.regexp",
+				"string.regexp keyword"
+			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#aa00ff"
 			}
 		},
 		{
@@ -577,16 +583,18 @@
 			"name": "Markdown: fenced code, raw strings",
 			"scope": [
 				"markup.fenced_code.block.markdown",
-				"markup.inline.raw.string.markdown"
+				"markup.inline.raw.string.markdown",
+				"markup.raw.block.markdown"
 			],
 			"settings": {
-				"foreground": "#3E2723"
+				"foreground": "#F4511E"
 			}
 		},
 		{
 			"name": "Markdown: link",
 			"scope": [
 				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown",
 				"meta.link.reference constant.other.reference.link.markdown"
 			],
 			"settings": {
@@ -618,6 +626,7 @@
 			"name": "Markdown: punctuation",
 			"scope": [
 				"punctuation.definition.constant.markdown",
+				"punctuation.definition.metadata.markdown",
 				"beginning.punctuation.definition.list.markdown"
 			],
 			"settings": {
@@ -657,6 +666,39 @@
 		// PHP section
 		//-----------------------------------------------------------------------------
 		{
+			"name": "PHP: begin/end markers",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#7e57c2"
+			}
+		},
+		{
+			"name": "PHP: class",
+			"scope": [
+				"entity.other.inherited-class.php",
+				"meta.other.inherited-class.php",
+				"meta.class.php",
+				"meta.class.body.php constant.other.php"
+			],
+			"settings": {
+				"foreground": "#880E4F"
+			}
+		},
+		{
+			"name": "PHP: class constant",
+			"scope": [
+				"constant.other.class.php",
+				"constant.other.php",
+				"support.constant.std.php"
+			],
+			"settings": {
+				"foreground": "#8E24AA"
+			}
+		},
+		{
 			"name": "PHP: documentation",
 			"scope": [
 				"comment.block.documentation.phpdoc.php"
@@ -684,6 +726,25 @@
 			}
 		},
 		{
+			"name": "PHP: embedded SQL",
+			"scope": [
+				"source.sql.embedded.php keyword"
+			],
+			"settings": {
+				"foreground": "#0288D1"
+			}
+		},
+		{
+			"name": "PHP: namespace",
+			"scope": [
+				"support.other.namespace.php",
+				"keyword.operator.key.php"
+			],
+			"settings": {
+				"foreground": "#455A64"
+			}
+		},
+		{
 			"name": "PHP: operator",
 			"scope": [
 				"keyword.operator.class.php",
@@ -704,6 +765,27 @@
 			],
 			"settings": {
 				"foreground": "#E57373"
+			}
+		},
+		{
+			"name": "PHP: this/self",
+			"scope": [
+				"variable.language.this.php",
+				"variable.language.this.php punctuation.definition.variable.php",
+				"storage.type.php"
+			],
+			"settings": {
+				"foreground": "#880E4F"
+			}
+		},
+		{
+			"name": "PHP: variable",
+			"scope": [
+				"punctuation.definition.variable.php",
+				"variable.other.php"
+			],
+			"settings": {
+				"foreground": "#8D6E63"
 			}
 		}
 	],
