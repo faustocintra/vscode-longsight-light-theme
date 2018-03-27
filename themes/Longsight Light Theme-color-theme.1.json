@@ -105,7 +105,7 @@
 				"support.constant.media.css"
 			],
 			"settings": {
-				"foreground": "#F57F17"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -114,7 +114,7 @@
 				"meta.documentation"
 			],
 			"settings": {
-				"foreground": "#004D40",
+				"foreground": "#1B5E20",
 				"fontStyle": "italic"
 			}
 		},
@@ -122,7 +122,7 @@
 			"name": "Language agnostic: escape \\ char",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#311B92"
+				"foreground": "#7986CB"
 			}
 		},
 		{
@@ -163,7 +163,7 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#33691E"
+				"foreground": "#689F38"
 			}
 		},
 		{
@@ -271,7 +271,7 @@
 				"source.scss entity.other.attribute-name.id"
 			],
 			"settings": {
-				"foreground": "#9E9D24"
+				"foreground": "#F4511E"
 			}
 		},
 		{
@@ -292,7 +292,7 @@
 				"entity.other.attribute-name.tag.pseudo-class"
 			],
 			"settings": {
-				"foreground": "#8D6E63"
+				"foreground": "#FF9800"
 			}
 		},
 		{
@@ -300,9 +300,7 @@
 			"scope": [
 				"entity.other.attribute-name.css",
 				"meta.property-list.scss entity.name.tag.css",
-				"meta.property-name.scss",
-				"support.type.property-name.css",
-				"support.type.vendored.property-name.css"
+				"meta.property-name.scss"
 			],
 			"settings": {
 				"foreground": "#0D47A1"
@@ -373,11 +371,10 @@
 				"entity.name.tag.css",
 				"entity.name.tag.scss",
 				"source.less keyword.control.html.elements",
-				"source.sass keyword.control.untitled",
-				"entity.name.tag.custom.scss"
+				"source.sass keyword.control.untitled"
 			],
 			"settings": {
-				"foreground": "#FF5722"
+				"foreground": "#9C27B0"
 			}
 		},
 		{
@@ -392,7 +389,7 @@
 			"name": "SCSS: variable",
 			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#7E57C2"
+				"foreground": "#8D6E63"
 			}
 		},
 		//-----------------------------------------------------------------------------
@@ -482,7 +479,7 @@
 				"comment.block.documentation.ts"
 			],
 			"settings": {
-				"foreground": "#004D40",
+				"foreground": "#006064",
 				"fontStyle": "italic"
 			}
 		},
@@ -707,11 +704,10 @@
 			"name": "PHP: class constant",
 			"scope": [
 				"constant.other.class.php",
-				"support.constant.std.php",
-				"meta.class.body.php constant.other.php"
+				"support.constant.std.php"
 			],
 			"settings": {
-				"foreground": "#F57F17"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -720,7 +716,7 @@
 				"comment.block.documentation.phpdoc.php"
 			],
 			"settings": {
-				"foreground": "#004D40",
+				"foreground": "#006064",
 				"fontStyle": "italic"
 			}
 		},
@@ -811,11 +807,10 @@
 			"name": "PHP: variable",
 			"scope": [
 				"punctuation.definition.variable.php",
-				"variable.other.class.php",
 				"variable.other.php"
 			],
 			"settings": {
-				"foreground": "#7E57C2"
+				"foreground": "#EF5350"
 			}
 		}
 	],
