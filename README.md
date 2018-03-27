@@ -10,19 +10,19 @@ In **Microsoft Visual Studio Code** (download it [here](https://code.visualstudi
 
 ## Screenshots
 
-PHP
+### PHP
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/php.png)
 
-HTML
+### HTML
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/html.png)
 
-CSS
+### CSS
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/css.png)
 
-Javascript
+### Javascript
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/js.png)
 
-Typescript
+### Typescript
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/ts.png)
 
 ## Credits
@@ -36,6 +36,17 @@ All notable changes to this project will be documented in this section.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [1.2.0] - [Unreleased]
+### Added
+- Initial support for SCSS and Markdown.
+
+### Changed
+- Improved scope mathching and colorization for supported languages.
+- Scopes were divided into sections and sorted in source file. This should make mantainance easier, as well as turn the code into a dependable base for other future themes.
+
+### Removed
+- Scopes inherited from Atom One Light Theme, related to languages not yet supported.
 
 ## [1.1.0] - 2018-03-21
 ### Added

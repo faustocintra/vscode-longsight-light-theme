@@ -122,7 +122,7 @@
 			"name": "Language agnostic: escape \\ char",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#FF7043"
+				"foreground": "#7986CB"
 			}
 		},
 		{
@@ -217,11 +217,11 @@
 		{
 			"name": "Language agnostic: regexp",
 			"scope": [
-				"string.regexp",
+				"keyword.control.anchor.regexp",
+				"string.regexp keyword",
 				"string.regexp punctuation.definition.string.begin",
 				"string.regexp punctuation.definition.string.end",
-				"keyword.control.anchor.regexp",
-				"string.regexp keyword"
+				"string.regexp"
 			],
 			"settings": {
 				"foreground": "#aa00ff"
@@ -243,10 +243,10 @@
 		{
 			"name": "Language agnostic: variable",
 			"scope": [
-				"variable",
-				"variable.other.readwrite",
+				"variable.other.constant",
 				"variable.other.object",
-				"variable.other.constant"
+				"variable.other.readwrite",
+				"variable"
 			],
 			"settings": {
 				"foreground": "#455A64"
@@ -267,8 +267,8 @@
 			"scope": [
 				"source.css entity.other.attribute-name.id",
 				"source.less entity.other.attribute-name.id",
-				"source.scss entity.other.attribute-name.id",
-				"source.sass entity.other.attribute-name.id"
+				"source.sass entity.other.attribute-name.id",
+				"source.scss entity.other.attribute-name.id"
 			],
 			"settings": {
 				"foreground": "#F4511E"
@@ -287,8 +287,8 @@
 		{
 			"name": "CSS :pseudo",
 			"scope": [
-				"entity.other.attribute-name.pseudo-element.css",
 				"entity.other.attribute-name.pseudo-class",
+				"entity.other.attribute-name.pseudo-element.css",
 				"entity.other.attribute-name.tag.pseudo-class"
 			],
 			"settings": {
@@ -316,9 +316,9 @@
 		{
 			"name": "CSS: operator",
 			"scope": [
+				"entity.name.tag.reference.scss",
 				"keyword.operator.css",
-				"keyword.operator.pattern.css",
-				"entity.name.tag.reference.scss"
+				"keyword.operator.pattern.css"
 			],
 			"settings": {
 				"foreground": "#B71C1C"
@@ -339,7 +339,10 @@
 				"punctuation.section.function.end.bracket.round.css",
 				"punctuation.section.function.scss",
 				"punctuation.section.function.scss",
+				"punctuation.section.media.begin.bracket.curly.css",
+				"punctuation.section.media.end.bracket.curly.css",
 				"punctuation.separator.key-value.css",
+				"punctuation.terminator.rule.css",
 				"punctuation.terminator.rule.scss"
 			],
 			"settings": {
@@ -593,8 +596,8 @@
 		{
 			"name": "Markdown: link",
 			"scope": [
-				"markup.underline.link.markdown",
 				"markup.underline.link.image.markdown",
+				"markup.underline.link.markdown",
 				"meta.link.reference constant.other.reference.link.markdown"
 			],
 			"settings": {
@@ -605,9 +608,9 @@
 		{
 			"name": "Markdown: link title",
 			"scope": [
-				"string.other.link.title.markdown",
 				"punctuation.definition.string.begin.markdown",
-				"punctuation.definition.string.end.markdown"
+				"punctuation.definition.string.end.markdown",
+				"string.other.link.title.markdown"
 			],
 			"settings": {
 				"foreground": "#0D47A1"
@@ -625,9 +628,9 @@
 		{
 			"name": "Markdown: punctuation",
 			"scope": [
+				"beginning.punctuation.definition.list.markdown",
 				"punctuation.definition.constant.markdown",
-				"punctuation.definition.metadata.markdown",
-				"beginning.punctuation.definition.list.markdown"
+				"punctuation.definition.metadata.markdown"
 			],
 			"settings": {
 				"foreground": "#E57373"
@@ -647,8 +650,8 @@
 		{
 			"name": "Markdown: section",
 			"scope": [
-				"markup.heading.setext.1.markdown",
 				"entity.name.section.markdown",
+				"markup.heading.setext.1.markdown",
 				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
@@ -679,9 +682,9 @@
 			"name": "PHP: class",
 			"scope": [
 				"entity.other.inherited-class.php",
-				"meta.other.inherited-class.php",
+				"meta.class.body.php constant.other.php",
 				"meta.class.php",
-				"meta.class.body.php constant.other.php"
+				"meta.other.inherited-class.php"
 			],
 			"settings": {
 				"foreground": "#880E4F"
@@ -711,14 +714,14 @@
 		{
 			"name": "PHP: documentation types and keywords",
 			"scope": [
-				"meta.other.type.phpdoc.php keyword.other.type.php",
 				"keyword.other.phpdoc.php",
-				"meta.other.type.phpdoc.php support.class.php",
 				"meta.other.type.phpdoc.php keyword.other.array.phpdoc.php",
+				"meta.other.type.phpdoc.php keyword.other.type.php",
 				"meta.other.type.phpdoc.php punctuation.separator.delimiter.php",
 				"meta.other.type.phpdoc.php punctuation.separator.inheritance.php",
-				"meta.other.type.phpdoc.php support.other.namespace.php",
-				"meta.other.type.phpdoc.php support.class.builtin.php"
+				"meta.other.type.phpdoc.php support.class.builtin.php",
+				"meta.other.type.phpdoc.php support.class.php",
+				"meta.other.type.phpdoc.php support.other.namespace.php"
 			],
 			"settings": {
 				"foreground": "#0097A7",
@@ -737,8 +740,8 @@
 		{
 			"name": "PHP: namespace",
 			"scope": [
-				"support.other.namespace.php",
-				"keyword.operator.key.php"
+				"keyword.operator.key.php",
+				"support.other.namespace.php"
 			],
 			"settings": {
 				"foreground": "#455A64"
@@ -757,11 +760,11 @@
 		{
 			"name": "PHP: punctuation",
 			"scope": [
-				"punctuation.terminator.expression.php",
 				"punctuation.definition.begin.bracket.curly.php",
 				"punctuation.definition.end.bracket.curly.php",
 				"punctuation.section.array.begin.php",
-				"punctuation.section.array.end.php"
+				"punctuation.section.array.end.php",
+				"punctuation.terminator.expression.php"
 			],
 			"settings": {
 				"foreground": "#E57373"
