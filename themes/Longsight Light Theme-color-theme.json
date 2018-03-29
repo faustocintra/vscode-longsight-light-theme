@@ -543,6 +543,8 @@
 		{
 			"name": "Javascript: punctuation",
 			"scope": [
+				"punctuation.accessor.js",
+				"punctuation.accessor.ts",
 				"punctuation.decorator.ts",
 				"punctuation.definition.array.begin.json",
 				"punctuation.definition.array.end.json",
