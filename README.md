@@ -2,13 +2,19 @@
 
 A colorful, yet eye-friendly, theme designed for use on data projectors, where dark themes do not suit well.
 
-Tested and optimized for PHP, HTML, CSS and (Java | Type)script.
+> Supported syntaxes: Markdown, PHP, HTML, [S]CSS and (Java | Type)script.
 
 ## Installation
 
 In **Microsoft Visual Studio Code** (download it [here](https://code.visualstudio.com/Download)), press `Ctrl + P`. Paste `ext install fgcintra.longsight-light-theme` into the box and hit `Enter`. Reload VSCode window when done.
 
 ## Screenshots
+
+### Markdown
+![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/md.png)
+
+### SCSS
+![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/scss.png)
 
 ### PHP
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/php.png)
@@ -27,8 +33,6 @@ In **Microsoft Visual Studio Code** (download it [here](https://code.visualstudi
 
 ## Credits
 * Color palette (Material Colors) by Google, provided by [HTML Color Codes](https://htmlcolorcodes.com/color-chart/material-design-color-chart/)
-* Some code samples by [Highlight.js](http://highlightjs.org)
-* Font on screenshots is Sam Radian's [Code New Roman](https://github.com/chrissimpkins/codeface/tree/master/fonts/code-new-roman) (I could not find the original repo)
 * Ideas and scope definitions taken from Mahmoud Ali's [Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight) and from Koen Lageveen's [Braver's Solarized Light Theme](https://marketplace.visualstudio.com/items?itemName=Braver.vscode-solarized)
 
 # Changelog
@@ -42,8 +46,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Initial support for SCSS and Markdown.
 
 ### Changed
-- Improved scope mathching and colorization for supported languages.
+- Improved scope matching and colorization for supported languages.
 - Scopes were divided into sections and sorted in source file. This should make mantainance easier, as well as turn the code into a dependable base for other future themes.
+- New, larger screenshots depicting real code.
 
 ### Removed
 - Scopes inherited from Atom One Light Theme, related to languages not yet supported.
