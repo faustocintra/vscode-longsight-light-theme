@@ -17,7 +17,7 @@
 		"editor.background": "#FFFDE7",
 		"editor.lineHighlightBackground": "#FFF3E0",
 		"editor.selectionBackground": "#FFECB3",
-		"editorCursor.foreground": "#3E2723",
+		"editorCursor.foreground": "#BF360C",
 		"editorGroup.background": "#FFFDE7",
 		"editorGroup.border": "#FFAB91",
 		"editorGroupHeader.tabsBackground": "#FFFDE7",
@@ -93,7 +93,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#006064",
+				"foreground": "#00695C",
 				"fontStyle": "italic"
 			}
 		},
@@ -114,7 +114,7 @@
 				"meta.documentation"
 			],
 			"settings": {
-				"foreground": "#004D40",
+				"foreground": "#5D4037",
 				"fontStyle": "italic"
 			}
 		},
@@ -257,6 +257,73 @@
 			"scope": "punctuation.definition.variable",
 			"settings": {
 				"foreground": "#263238"
+			}
+		},
+		//-----------------------------------------------------------------------------
+		// C# section
+		//-----------------------------------------------------------------------------
+		{
+			"name": "C#: class",
+			"scope": [
+				"storage.type.cs"
+			],
+			"settings": {
+				"foreground": "#880E4F"
+			}
+		},
+		{
+			"name": "C#: documentation",
+			"scope": [
+				"comment.block.documentation.cs"
+			],
+			"settings": {
+				"foreground": "#5D4037",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C#: documentation types and keywords",
+			"scope": [
+				"comment.block.documentation.cs meta.tag.cs entity.name.tag.cs entity.name.tag.localname.cs entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#BF360C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C#: operator",
+			"scope": [
+				"keyword.operator.relational.cs"
+			],
+			"settings": {
+				"foreground": "#B71C1C"
+			}
+		},
+		{
+			"name": "C#: preprocessor",
+			"scope": [
+				"meta.preprocessor.cs"
+			],
+			"settings": {
+				"foreground": "#AFB42B"
+			}
+		},
+		{
+			"name": "C#: punctuation",
+			"scope": [
+				"punctuation.accessor.cs",
+				"punctuation.curlybrace.close.cs",
+				"punctuation.curlybrace.open.cs",
+				"punctuation.definition.typeparameters.begin.cs",
+				"punctuation.definition.typeparameters.end.cs",
+				"punctuation.parenthesis.close.cs",
+				"punctuation.parenthesis.open.cs",
+				"punctuation.squarebracket.close.cs",
+				"punctuation.squarebracket.open.cs"
+			],
+			"settings": {
+				"foreground": "#E57373"
 			}
 		},
 		//-----------------------------------------------------------------------------
@@ -482,7 +549,7 @@
 				"comment.block.documentation.ts"
 			],
 			"settings": {
-				"foreground": "#004D40",
+				"foreground": "#00695C",
 				"fontStyle": "italic"
 			}
 		},
@@ -496,7 +563,7 @@
 				"entity.name.type.instance.jsdoc"
 			],
 			"settings": {
-				"foreground": "#006064",
+				"foreground": "#BF360C",
 				"fontStyle": "italic"
 			}
 		},
@@ -719,10 +786,11 @@
 		{
 			"name": "PHP: documentation",
 			"scope": [
+				"comment.block.documentation.phpdoc.php punctuation.definition.comment.php",
 				"comment.block.documentation.phpdoc.php"
 			],
 			"settings": {
-				"foreground": "#004D40",
+				"foreground": "#5D4037",
 				"fontStyle": "italic"
 			}
 		},
@@ -739,7 +807,7 @@
 				"meta.other.type.phpdoc.php support.other.namespace.php"
 			],
 			"settings": {
-				"foreground": "#006064",
+				"foreground": "#BF360C",
 				"fontStyle": "italic"
 			}
 		},
@@ -819,7 +887,126 @@
 			"settings": {
 				"foreground": "#7E57C2"
 			}
+		},
+		//-----------------------------------------------------------------------------
+		// Python section
+		//-----------------------------------------------------------------------------
+		{
+			"name": "Python: constant",
+			"scope": [
+				"constant.other.caps.python"
+			],
+			"settings": {
+				"foreground": "#F57F17"
+			}
+		},
+		{
+			"name": "Pyton: documentation",
+			"scope": [
+				"string.quoted.docstring.multi.python keyword.control.flow.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.single.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.single.python punctuation.definition.string.end.python",
+				"string.quoted.docstring.single.python"
+
+			],
+			"settings": {
+				"foreground": "#5D4037",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python: decorator",
+			"scope": [
+				"entity.name.function.decorator.python",
+				"meta.function.decorator.python support.type.python",
+				"meta.function.decorator.python punctuation.definition.arguments.begin.python",
+				"meta.function.decorator.python punctuation.definition.arguments.end.python",
+				"meta.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#9E9D24"
+			}
+		},
+		{
+			"name": "Python: magical variable and function",
+			"scope": [
+				"support.function.magic.python",
+				"support.variable.magic.python"
+			],
+			"settings": {
+				"foreground": "#FF8A65"
+			}
+		},
+		{
+			"name": "Python: number",
+			"scope": [
+				"storage.type.number.python"
+			],
+			"settings": {
+				"foreground": "#33691E"
+			}
+		},
+		{
+			"name": "Python: operator",
+			"scope": [
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.unpacking.parameter.python"
+			],
+			"settings": {
+				"foreground": "#B71C1C"
+			}
+		},
+		{
+			"name": "Python: plain text",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#455A64"
+			}
+		},
+		{
+			"name": "Python: punctuation",
+			"scope": [
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.parenthesis.begin.python",
+				"punctuation.parenthesis.end.python",
+				"punctuation.section.function.begin.python",
+				"punctuation.section.function.end.python"
+			],
+			"settings": {
+				"foreground": "#E57373"
+			}
+		},
+		{
+			"name": "Python: regexp",
+			"scope": [
+				"string.regexp.quoted.double.python storage.type.string.python",
+				"string.regexp.quoted.single.python storage.type.string.python"
+			],
+			"settings": {
+				"foreground": "#aa00ff"
+			}
+		},
+		{
+			"name": "Python: self",
+			"scope": [
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#880E4F"
+			}
 		}
+		
 	],
 	"uuid": "130e5195-c9e1-4f74-b5d4-c0ffe77192e5"
 }
