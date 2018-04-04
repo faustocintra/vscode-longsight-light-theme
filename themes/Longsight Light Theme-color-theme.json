@@ -892,6 +892,21 @@
 		// Python section
 		//-----------------------------------------------------------------------------
 		{
+			"name": "Python: binary string",
+			"scope": [
+				"string.quoted.binary.single.python punctuation.definition.string.begin.python",
+				"string.quoted.binary.single.python punctuation.definition.string.end.python",
+				"string.quoted.binary.single.python",
+				"string.quoted.binary.double.python punctuation.definition.string.begin.python",
+				"string.quoted.binary.double.python punctuation.definition.string.end.python",
+				"string.quoted.binary.double.python",
+				"storage.type.string.python"
+			],
+			"settings": {
+				"foreground": "#1A237E"
+			}
+		},
+		{
 			"name": "Python: constant",
 			"scope": [
 				"constant.other.caps.python"
@@ -914,6 +929,16 @@
 			],
 			"settings": {
 				"foreground": "#5D4037",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Pyton: documentation tag",
+			"scope": [
+				"keyword.codetag.notation.python"
+			],
+			"settings": {
+				"foreground": "#BF360C",
 				"fontStyle": "italic"
 			}
 		},
@@ -1005,7 +1030,144 @@
 			"settings": {
 				"foreground": "#880E4F"
 			}
+		},
+		//-----------------------------------------------------------------------------
+		// Ruby section
+		//-----------------------------------------------------------------------------
+		{
+			"name": "Ruby: class",
+			"scope": [
+				"entity.other.inherited-class.ruby",
+				"variable.language.self.ruby"
+			],
+			"settings": {
+				"foreground": "#880E4F"
+			}
+		},
+		{
+			"name": "Ruby: constant",
+			"scope": [
+				"variable.other.constant.ruby"
+			],
+			"settings": {
+				"foreground": "#F57F17"
+			}
+		},
+		{
+			"name": "Ruby: embedded punctuation",
+			"scope": [
+				"meta.embedded.line.ruby punctuation.separator.method.ruby",
+				"punctuation.section.embedded.begin.ruby",
+				"punctuation.section.embedded.end.ruby"
+			],
+			"settings": {
+				"foreground": "#311B92"
+			}
+		},
+		{
+			"name": "Ruby: embedded variable",
+			"scope": [
+				"meta.embedded.line.ruby"
+			],
+			"settings": {
+				"foreground": "#455A64"
+			}
+		},
+		{
+			"name": "Ruby: hashkey",
+			"scope": [
+				"constant.other.symbol.hashkey.parameter.function.ruby",
+				"constant.other.symbol.hashkey.ruby"
+			],
+			"settings": {
+				"foreground": "#0D47A1"
+			}
+		},
+		{
+			"name": "Ruby: class variable",
+			"scope": [
+				"variable.other.readwrite.class.ruby punctuation.definition.variable.ruby",
+				"variable.other.readwrite.class.ruby"
+			],
+			"settings": {
+				"foreground": "#6A1B9A",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Ruby: global variable",
+			"scope": [
+				"variable.other.readwrite.global.pre-defined.ruby punctuation.definition.variable.ruby",
+				"variable.other.readwrite.global.pre-defined.ruby",
+				"variable.other.readwrite.global.ruby punctuation.definition.variable.ruby",
+				"variable.other.readwrite.global.ruby"
+			],
+			"settings": {
+				"foreground": "#F44336"
+			}
+		},
+		{
+			"name": "Ruby: instance variable",
+			"scope": [
+				"variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
+				"variable.other.readwrite.instance.ruby"
+			],
+			"settings": {
+				"foreground": "#7E57C2"
+			}
+		},
+		{
+			"name": "Ruby: operator",
+			"scope": [
+				"keyword.operator.other.ruby"
+			],
+			"settings": {
+				"foreground": "#B71C1C"
+			}
+		},
+		{
+			"name": "Ruby: source",
+			"scope": [
+				"source.ruby"
+			],
+			"settings": {
+				"foreground": "#455A64"
+			}
+		},
+		{
+			"name": "Ruby: special method",
+			"scope": [
+				"keyword.other.special-method.ruby"
+			],
+			"settings": {
+				"foreground": "#B71C1C"
+			}
+		},
+		{
+			"name": "Ruby: punctuation",
+			"scope": [
+				"punctuation.definition.parameters.ruby",
+				"punctuation.section.array.begin.ruby",
+				"punctuation.section.array.end.ruby",
+				"punctuation.section.function.ruby",
+				"punctuation.section.scope.begin.ruby",
+				"punctuation.section.scope.end.ruby"
+			],
+			"settings": {
+				"foreground": "#E57373"
+			}
+		},
+		
+		{
+			"name": "Ruby: symbol",
+			"scope": [
+				"constant.other.symbol.ruby"
+			],
+			"settings": {
+				"foreground": "#9E9D24"
+			}
 		}
+		
 		
 	],
 	"uuid": "130e5195-c9e1-4f74-b5d4-c0ffe77192e5"
