@@ -531,6 +531,91 @@
 			}
 		},
 		//-----------------------------------------------------------------------------
+		// Java section
+		//-----------------------------------------------------------------------------
+		{
+			"name": "Java: annotation",
+			"scope": [
+				"punctuation.definition.annotation.java",
+				"storage.type.annotation.java"
+			],
+			"settings": {
+				"foreground": "#9E9D24"
+			}
+		},
+		{
+			"name": "Java: class",
+			"scope": [
+				"storage.modifier.import.java",
+				"storage.type.generic.java",
+				"storage.type.java",
+				"variable.language.this.java"
+			],
+			"settings": {
+				"foreground": "#880E4F"
+			}
+		},
+		{
+			"name": "Java: documentation",
+			"scope": [
+				"comment.block.javadoc.java punctuation.definition.comment.java",
+				"comment.block.javadoc.java"
+			],
+			"settings": {
+				"foreground": "#5D4037",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java: documentation types and keywords",
+			"scope": [
+				"comment.block.javadoc.java variable.parameter.java",
+				"keyword.other.documentation.javadoc.java"
+			],
+			"settings": {
+				"foreground": "#BF360C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java: operator",
+			"scope": [
+				"keyword.control.new.java",
+				"keyword.operator.increment-decrement.java"
+			],
+			"settings": {
+				"foreground": "#B71C1C"
+			}
+		},
+		{
+			"name": "Java: property",
+			"scope": [
+				"variable.other.object.property.java",
+				"variable.other.property.java"
+			],
+			"settings": {
+				"foreground": "#0D47A1"
+			}
+		},
+		{
+			"name": "Java: punctuation",
+			"scope": [
+				"punctuation.terminator.java"
+			],
+			"settings": {
+				"foreground": "#E57373"
+			}
+		},
+		{
+			"name": "Java: source",
+			"scope": [
+				"source.java"
+			],
+			"settings": {
+				"foreground": "#455A64"
+			}
+		},
+		//-----------------------------------------------------------------------------
 		// Javascript, JSON, Typescript section
 		//-----------------------------------------------------------------------------
 		{
