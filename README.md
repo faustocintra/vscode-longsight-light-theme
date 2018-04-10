@@ -1,6 +1,6 @@
 # Longsight Light Theme
 
-A colorful, yet eye-friendly, theme designed for use on data projectors, where dark themes do not suit well.
+A colorful, yet eye-friendly, theme designed for use on data projectors, where dark themes do not suit well. Pretty usable on regular screens as well.
 
 > Supported syntaxes: Markdown, PHP, HTML, [S]CSS and (Java | Type)script.
 
@@ -40,6 +40,13 @@ All notable changes to this project will be documented in this section.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [1.3.0] - 2018-04-10
+### Added
+- Initial support for Python, Ruby and Java.
+
+### Changed
+- Improved scope matching and colorization for supported languages.
 
 ## [1.2.1] - 2018-03-29
 ### Added

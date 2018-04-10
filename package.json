@@ -1,8 +1,8 @@
 {
     "name": "longsight-light-theme",
     "displayName": "Longsight Light Theme",
-    "description": "A theme designed for use on data projectors",
-    "version": "1.2.99",
+    "description": "A theme pimarily designed for use on data projectors, and pretty usable on regular screens as well",
+    "version": "1.3.0",
     "publisher": "fgcintra",
     "license": "MIT",
     "galleryBanner": {

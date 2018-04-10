@@ -549,6 +549,9 @@
 				"storage.modifier.import.java",
 				"storage.type.generic.java",
 				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
 				"variable.language.this.java"
 			],
 			"settings": {
@@ -663,7 +666,10 @@
 				"meta.object.member.tsx meta.object-literal.key.tsx",
 				"source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
 				"source.json meta.structure.dictionary.json > string.quoted.json",
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"variable.object.property.js",
+				"variable.object.property.ts",
+				"variable.object.property.tsx"
 			],
 			"settings": {
 				"foreground": "#0D47A1"
