@@ -372,7 +372,7 @@
 				"support.type.vendored.property-name.css"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -597,7 +597,7 @@
 				"variable.other.property.java"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -624,7 +624,11 @@
 		{
 			"name": "Javascript: class",
 			"scope": [
-				"storage.type.js"
+				"storage.type.js",
+				"variable.other.readwrite.alias.ts",
+				"entity.name.type.ts",
+				"variable.language.this.ts",
+				"support.constant.math.js"
 			],
 			"settings": {
 				"foreground": "#880E4F"
@@ -669,10 +673,15 @@
 				"support.type.property-name.json",
 				"variable.object.property.js",
 				"variable.object.property.ts",
-				"variable.object.property.tsx"
+				"variable.other.object.property.ts",
+				"variable.other.property.ts",
+				"support.variable.property.dom.ts",
+				"variable.object.property.tsx",
+				"variable.other.property.js",
+				"variable.other.object.property.js"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -729,21 +738,44 @@
 				"support.variable.property.tsx"
 			],
 			"settings": {
+				"foreground": "#8E24AA"
+			}
+		},
+		{
+			"name": "Javascript: string template",
+			"scope": [
+				"punctuation.definition.string.template.begin.js",
+				"punctuation.definition.string.template.begin.ts",
+				"punctuation.definition.string.template.begin.tsx",
+				"punctuation.definition.string.template.end.js",
+				"punctuation.definition.string.template.end.ts",
+				"punctuation.definition.string.template.end.tsx",
+				"string.template.js",
+				"string.template.ts",
+				"string.template.tsx"
+			],
+			"settings": {
 				"foreground": "#0D47A1"
 			}
 		},
 		{
-			"name": "Typescript: string template begin/end",
+			"name": "Javascript: string template expression",
 			"scope": [
-				"punctuation.definition.string.template.begin.ts",
-				"punctuation.definition.string.template.begin.tsx",
-				"punctuation.definition.string.template.end.ts",
-				"punctuation.definition.string.template.end.tsx"
+				"meta.template.expression.js",
+				"meta.template.expression.ts",
+				"meta.template.expression.tsx",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.begin.tsx",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.end.ts",
+				"punctuation.definition.template-expression.end.tsx"
 			],
 			"settings": {
-				"foreground": "#0288D1"
+				"foreground": "#AFB42B"
 			}
 		},
+		
 		//-----------------------------------------------------------------------------
 		// Markdown section
 		//-----------------------------------------------------------------------------
@@ -785,7 +817,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -815,7 +847,7 @@
 				"markup.quote.markdown meta.paragraph.markdown"
 			],
 			"settings": {
-				"foreground": "#827717",
+				"foreground": "#8E24AA",
 				"fontStyle": "italic"
 			}
 		},
@@ -1171,7 +1203,7 @@
 				"constant.other.symbol.hashkey.ruby"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -1194,7 +1226,7 @@
 				"variable.other.readwrite.global.ruby"
 			],
 			"settings": {
-				"foreground": "#F44336"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
