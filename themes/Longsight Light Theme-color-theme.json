@@ -628,7 +628,9 @@
 				"variable.other.readwrite.alias.ts",
 				"entity.name.type.ts",
 				"variable.language.this.ts",
-				"support.constant.math.js"
+				"support.constant.math.js",
+				"variable.other.object.ts",
+				"variable.other.object.tsx"
 			],
 			"settings": {
 				"foreground": "#880E4F"
