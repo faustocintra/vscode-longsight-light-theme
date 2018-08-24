@@ -152,7 +152,8 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#E91E63"
+				"foreground": "#E91E63",
+				"fontStyle": "italic"
 			}
 		},
 		{
