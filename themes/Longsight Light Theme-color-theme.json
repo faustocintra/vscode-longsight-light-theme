@@ -14,13 +14,13 @@
 		"diffEditor.insertedTextBackground": "#00809B33",
 		"dropdown.background": "#FFFFFF",
 		"dropdown.border": "#FFAB91",
-		"editor.background": "#FFFDE7",
-		"editor.lineHighlightBackground": "#FFF3E0",
+		"editor.background": "#FFFEF8",
+		"editor.lineHighlightBackground": "#FFF4f1",
 		"editor.selectionBackground": "#FFECB3",
 		"editorCursor.foreground": "#BF360C",
 		"editorGroup.background": "#FFFDE7",
 		"editorGroup.border": "#FFAB91",
-		"editorGroupHeader.tabsBackground": "#FFFDE7",
+		"editorGroupHeader.tabsBackground": "#FFFef8",
 		"editorHoverWidget.background": "#FFF8E1",
 		"editorHoverWidget.border": "#FFAB91",
 		"editorIndentGuide.background": "#CFD8DC",
@@ -33,7 +33,7 @@
 		"extensionButton.prominentBackground": "#3BBA54",
 		"extensionButton.prominentHoverBackground": "#4CC263",
 		"focusBorder": "#D81B60",
-		"input.background": "#FFFDE7",
+		"input.background": "#FFFef8",
 		"input.border": "#FFAB91",
 		"list.activeSelectionBackground": "#FF8A6566",
 		"list.activeSelectionForeground": "#424243",
@@ -51,7 +51,7 @@
 		"scrollbarSlider.activeBackground": "#FFFDE780",
 		"scrollbarSlider.background": "#FFFDE780",
 		"scrollbarSlider.hoverBackground": "#FF572280",
-		"sideBar.background": "#FFF8E1",
+		"sideBar.background": "#FFF9f2",
 		"sideBarSectionHeader.background": "#E1BEE7",
 		"sideBarSectionHeader.foreground": "#FFffff",
 		"statusBar.background": "#FF8A65",
@@ -59,9 +59,9 @@
 		"statusBar.foreground": "#fefefe",
 		"statusBar.noFolderBackground": "#FFB74D",
 		"statusBarItem.hoverBackground": "#FF7043",
-		"tab.activeBackground": "#FF8A6533",
+		"tab.activeBackground": "#FF8B7633",
 		"tab.border": "#B0BEC5",
-		"tab.inactiveBackground": "#FFFDE7",
+		"tab.inactiveBackground": "#FFFEF8",
 		"textLink.activeForeground": "#C2185B",
 		"textLink.foreground": "#880E4F",
 		"titleBar.activeBackground": "#580933",
@@ -690,6 +690,7 @@
 		{
 			"name": "Javascript: operator",
 			"scope": [
+				"keyword.operator",
 				"keyword.operator.expression.instanceof.js",
 				"keyword.operator.expression.void.js",
 				"keyword.operator.new.js",
@@ -707,7 +708,8 @@
 				"storage.type.function.arrow.ts"
 			],
 			"settings": {
-				"foreground": "#B71C1C"
+				"foreground": "#B71C1C",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -775,7 +777,7 @@
 				"punctuation.definition.template-expression.end.tsx"
 			],
 			"settings": {
-				"foreground": "#AFB42B"
+				"foreground": "#0288D1"
 			}
 		},
 		
@@ -1011,7 +1013,7 @@
 				"variable.other.php"
 			],
 			"settings": {
-				"foreground": "#7E57C2"
+				"foreground": "#FF7043"
 			}
 		},
 		//-----------------------------------------------------------------------------
