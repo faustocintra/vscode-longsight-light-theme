@@ -238,7 +238,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#0288D1"
+				"foreground": "#0d47a1"
 			}
 		},
 		{
@@ -339,7 +339,7 @@
 				"source.scss entity.other.attribute-name.id"
 			],
 			"settings": {
-				"foreground": "#9E9D24"
+				"foreground": "#8E24AA"
 			}
 		},
 		{
@@ -373,7 +373,7 @@
 				"support.type.vendored.property-name.css"
 			],
 			"settings": {
-				"foreground": "#8E24AA"
+				"foreground": "#0288D1"
 			}
 		},
 		{
@@ -445,7 +445,7 @@
 				"entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#FF5722"
+				"foreground": "#BF360C"
 			}
 		},
 		{
@@ -460,7 +460,7 @@
 			"name": "SCSS: variable",
 			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#7E57C2"
+				"foreground": "#FF7043"
 			}
 		},
 		//-----------------------------------------------------------------------------
@@ -673,7 +673,15 @@
 				"meta.object.member.tsx meta.object-literal.key.tsx",
 				"source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
 				"source.json meta.structure.dictionary.json > string.quoted.json",
-				"support.type.property-name.json",
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#0288D1" /* "#455a64" */
+			}
+		},
+		{
+			"name": "Javascript: Object properties",
+			"scope": [
 				"variable.object.property.js",
 				"variable.object.property.ts",
 				"variable.other.object.property.ts",
@@ -684,7 +692,7 @@
 				"variable.other.object.property.js"
 			],
 			"settings": {
-				"foreground": "#8E24AA"
+				"foreground": "#8E24AA" /* "#8E24AA" */
 			}
 		},
 		{
@@ -760,7 +768,7 @@
 				"string.template.tsx"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#673ab7"
 			}
 		},
 		{
