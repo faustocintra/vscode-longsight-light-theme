@@ -51,7 +51,7 @@
 		"scrollbarSlider.background": "#FFFDE780",
 		"scrollbarSlider.hoverBackground": "#FF572280",
 		"sideBar.background": "#FFF9f2",
-		"sideBarSectionHeader.background": "#E1BEE7",
+		"sideBarSectionHeader.background": "#f8bbd0",
 		"sideBarSectionHeader.foreground": "#FFffff",
 		"statusBar.background": "#FF8A65",
 		"statusBar.debuggingForeground": "#FFFFFF",
