@@ -13,7 +13,7 @@ In **Microsoft Visual Studio Code** (download it [here](https://code.visualstudi
 ### Markdown
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/md.png)
 
-### SCSS
+### (S)CSS
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/scss.png)
 
 ### PHP
@@ -21,9 +21,6 @@ In **Microsoft Visual Studio Code** (download it [here](https://code.visualstudi
 
 ### HTML
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/html.png)
-
-### CSS
-![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/css.png)
 
 ### Javascript
 ![](https://raw.githubusercontent.com/fgcintra/vscode-longsight-light-theme/master/screenshots/js.png)
@@ -40,6 +37,15 @@ All notable changes to this project will be documented in this section.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+
+## [3.0.0] - 2019-04-30
+### Changed
+- Major general tweaks for all supported languages.
+- New screenshots.
+
+## [2.x]
+Private builds. **UNPUBLISHED**.
 
 ## [1.3.0] - 2018-04-10
 ### Added

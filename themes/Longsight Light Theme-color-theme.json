@@ -476,7 +476,15 @@
 			"name": "SCSS: variable",
 			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#FF7043"
+				"foreground": "#BF360C"
+			}
+		},
+		{
+			"name": "SCSS: atribute name placeholder",
+			"scope": "entity.other.attribute-name.placeholder.css",
+			"settings": {
+				"foreground": "#BF360C",
+				"fontStyle": "italic"
 			}
 		},
 		//-----------------------------------------------------------------------------
